@@ -33,11 +33,18 @@ div[class='box box-services']:hover  {
 }
 
 .jumbotron.main-jumbotron {
-    background-image: url('../img/construction.jpg')
+    background-image: url('../img/construction.jpg');
+    background-attachment: fixed;
 }
 
 .main-jumbotron:before {
     opacity: 0.6;
+}
+
+.card-image {
+   width: 100%!important;
+   height: 200px!important;
+   object-fit: cover;
 }
 
 /* .navbar {

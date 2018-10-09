@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="css/pe-icon-7-stroke.css">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,700">
   <link rel="stylesheet" href="css/lightbox.min.css">
-  <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+  <link rel="stylesheet" href="css/style.red.css" id="theme-stylesheet">
   <link rel="stylesheet" href="css/custom.css">
   <link rel="shortcut icon" href="./img/logo.svg">
 </head>
@@ -24,7 +24,7 @@
 <body>
   <!-- navbar-->
   <header class="header">
-    <div role="navigation" class="navbar navbar-default">
+    <div role="navigation" class="navbar navbar-default navbar-static-top">
       <div class="container">
         <div class="navbar-header">
           <a href="index.html" class="navbar-brand">
@@ -38,10 +38,9 @@
         </div>
         <div id="navigation" class="collapse navbar-collapse navbar-right">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="text.html">About Us</a></li>
-            <li><a href="index.html">Gallery</a></li>
-            <li><a href="text.html">Project List</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
         </div>
       </div>
     </div>
@@ -62,7 +61,7 @@
     </div>
   </div>
 
-  <section>
+  <section id="about-us">
     <div class="container">
       <h2 class="text-center">About Us</h2>
       <p class="lead text-center">
@@ -157,95 +156,68 @@
     </div>
   </section>
 
-  <section>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="post">
-            <div class="image"><a href="text.html"><img src="img/blog1.jpg" alt="" class="img-responsive"></a></div>
-            <h3><a href="text.html">Rit eget tincidunt condimentum</a></h3>
-            <p class="post__intro">ellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
-              egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero
-              sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-            <p class="read-more"><a href="text.html" class="btn btn-ghost">Continue reading </a></p>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="post">
-            <div class="image"><a href="text.html"><img src="img/blog2.jpg" alt="" class="img-responsive"></a></div>
-            <h3><a href="text.html">Tempor sit amet</a></h3>
-            <p class="post__intro"> Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris
-              placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi,
-              condimentum sed, commodo vitae, ornare sit amet, wisi.</p>
-            <p class="read-more"><a href="text.html" class="btn btn-ghost">Continue reading </a></p>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="post">
-            <div class="image"><a href="text.html"><img src="img/blog3.jpg" alt="" class="img-responsive"></a></div>
-            <h3><a href="text.html">Vestibulum erat wisi</a></h3>
-            <p class="post__intro">ellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
-              egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero
-              sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-            <p class="read-more"><a href="text.html" class="btn btn-ghost">Continue reading </a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="portfolio" class="background-gray-lightest">
+  <section id="gallery">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <h1 class="text-center padding-bottom-50">Gallery</h1>
-          <p class="lead">You can make also a portfolio or image gallery.</p>
         </div>
       </div>
     </div>
     <div class="container">
-      <div class="row no-space">
-        <div class="col-sm-4 col-xs-6">
-          <div class="box"><a href="img/portfolio-1.jpg" title="" data-lightbox="portfolio" data-title="Portfolio image 1"><img
-                src="img/portfolio-1.jpg" alt="" class="img-responsive"></a></div>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="post">
+            <div class="image">
+              <a href="text.html">
+                <img src="img/projects/university-of-perpetual-help.png" alt="" class="card-image">
+              </a>
+            </div>
+            <h3>
+              <a href="text.html">
+                University of Perpetual Help (Molino, Cavite)
+              </a>
+            </h3>
+          </div>
         </div>
-        <div class="col-sm-4 col-xs-6">
-          <div class="box"><a href="img/portfolio-7.jpg" title="" data-lightbox="portfolio" data-title="Portfolio image 7"><img
-                src="img/portfolio-7.jpg" alt="" class="img-responsive"></a></div>
+        <div class="col-sm-4">
+          <div class="post">
+            <div class="image">
+              <a href="text.html">
+                <img src="img/projects/smdc-showroom.png" alt="" class="card-image">
+              </a>
+            </div>
+            <h3>
+              <a href="text.html">
+                SMDC Showroom
+              </a>
+            </h3>
+          </div>
         </div>
-        <div class="col-sm-4 col-xs-6">
-          <div class="box"><a href="img/portfolio-3.jpg" title="" data-lightbox="portfolio" data-title="Portfolio image 3"><img
-                src="img/portfolio-3.jpg" alt="" class="img-responsive"></a></div>
+        <div class="col-sm-4">
+          <div class="post">
+            <div class="image">
+              <a href="text.html">
+                <img src="img/projects/mapua-canteen.png" alt="" class="card-image">
+              </a>
+            </div>
+            <h3>
+              <a href="text.html">
+                Mapua Canteen
+              </a>
+            </h3>
+          </div>
         </div>
-        <div class="col-sm-4 col-xs-6">
-          <div class="box"><a href="img/portfolio-5.jpg" title="" data-lightbox="portfolio" data-title="Portfolio image 5"><img
-                src="img/portfolio-5.jpg" alt="" class="img-responsive"></a></div>
-        </div>
-        <div class="col-sm-4 col-xs-6">
-          <div class="box"><a href="img/portfolio-4.jpg" title="" data-lightbox="portfolio" data-title="Portfolio image 4"><img
-                src="img/portfolio-4.jpg" alt="" class="img-responsive"></a></div>
-        </div>
-        <div class="col-sm-4 col-xs-6">
-          <div class="box"><a href="img/portfolio-6.jpg" title="" data-lightbox="portfolio" data-title="Portfolio image 6"><img
-                src="img/portfolio-6.jpg" alt="" class="img-responsive"></a></div>
-        </div>
-        <div class="col-sm-4 col-xs-6">
-          <div class="box"><a href="img/portfolio-2.jpg" title="" data-lightbox="portfolio" data-title="Portfolio image 2"><img
-                src="img/portfolio-2.jpg" alt="" class="img-responsive"></a></div>
-        </div>
-        <div class="col-sm-4 col-xs-6">
-          <div class="box"><a href="img/portfolio-8.jpg" title="" data-lightbox="portfolio" data-title="Portfolio image 8"><img
-                src="img/portfolio-8.jpg" alt="" class="img-responsive"></a></div>
-        </div>
-        <div class="col-sm-4 col-xs-6">
-          <div class="box"><a href="img/portfolio-9.jpg" title="" data-lightbox="portfolio" data-title="Portfolio image 9"><img
-                src="img/portfolio-9.jpg" alt="" class="img-responsive"></a></div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p class="read-more"><a href="text.html" class="btn btn-ghost">View others...</a></p>
         </div>
       </div>
     </div>
   </section>
 
-  <section>
+  <section id="contact-us" class="background-gray-lightest">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -285,7 +257,7 @@
           <div class="box-simple">
             <div class="icon"><i class="pe-7s-mail-open"></i></div>
             <h4 class="heading margin-bottom">Electronic support</h4>
-            <p class="text-muted">Please feel free to write an email to us or to use our electronic ticketing system.</p>
+            <p class="text-muted">Please feel free to write an email to us at:</p>
             <ul>
               <li><strong><a href="mailto:">info@megabuilders.com</a></strong></li>
             </ul>
@@ -344,11 +316,11 @@
             <p>
               Follow us:
               <br />
-              <a href=""><i class="fas fas-facebook"></i> Facebook</a>
+              <a href=""><i class="fab fa-facebook"></i> Facebook</a>
               <br />
-              <a href=""><i class="fas fas-google-plus"></i> Google</a>
+              <a href=""><i class="fab fa-google-plus"></i> Google</a>
               <br />
-              <a href=""><i class="fas fas-twitter"></i> Twitter</a>
+              <a href=""><i class="fab fa-twitter"></i> Twitter</a>
             </p>
           </div>
           <div class="col-md-3 col-sm-12">
@@ -390,6 +362,23 @@
   <script src="js/jquery.cookie.js"> </script>
   <script src="js/lightbox.min.js"></script>
   <script src="js/front.js"></script>
+
+  <script>
+    $('a[href*=#]:not([href=#])').click(function () {
+      if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+        || location.hostname == this.hostname) {
+
+        var target = $(this.hash);
+        target = target.length ? target : $('[id=' + this.hash.slice(1) + ']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  </script>
 </body>
 
 </html>
