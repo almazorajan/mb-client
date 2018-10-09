@@ -1,0 +1,70 @@
+/* your styles go here */
+
+div[class='box box-services'] {
+    text-align: center;
+}
+
+div[class='box box-services']:hover  {
+    padding: 40px 40px 40px 40px;
+    transition: 100ms linear 0s;
+}
+
+/* .main-jumbotron {
+    padding-top: 250px;
+    padding-bottom: 250px;
+} */
+
+.h1 {
+    text-align: center;
+}
+
+.padding-bottom-50 {
+    padding-bottom: 50px;
+}
+
+.heading:after {
+    background: #ff1616;
+    text-align: center;
+}
+
+.icon {
+    border-color: #ff1616;
+    color: #ff1616;
+}
+
+.jumbotron.main-jumbotron {
+    background-image: url('../img/construction.jpg')
+}
+
+.main-jumbotron:before {
+    opacity: 0.6;
+}
+
+/* .navbar {
+    min-height: 79px;
+}
+
+.navbar ul.nav > li > a {
+    padding-top: 32.5px;
+} */
+
+.navbar a.navbar-brand {
+    color:#ff1616;
+}
+
+.btn-ghost {
+    color: #ff1616;
+    border-color: #ff1616;
+}
+
+.navbar ul.nav > li.active > a, .navbar ul.nav > li.open > a {
+    color: #ff1616;
+}
+
+.navbar ul.nav > li.active > a, .navbar ul.nav > li.open > a {
+    border-top-color: #ff1616;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #ff1616;
+}
