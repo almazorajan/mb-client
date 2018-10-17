@@ -39,7 +39,7 @@
         <div id="navigation" class="collapse navbar-collapse navbar-right">
           <ul class="nav navbar-nav">
             <li><a href="#about-us">About Us</a></li>
-            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#gallery">Projects</a></li>
             <li><a href="#contact-us">Contact Us</a></li>
         </div>
       </div>
@@ -63,16 +63,38 @@
 
   <section id="about-us">
     <div class="container">
-      <h2 class="text-center">About Us</h2>
-      <p class="lead text-center">
-        Mega Builders and Bldg. Care Services Corp is a Construction Firm, duly registered with the Securities and
-        Exchange
-        Commission, engaged in general construction services ranging from Renovation of Industrial and Commercial
-        Spaces to
-        Design and Build Projects.
-        We at Mega Builders are committed to provide our clients with High Quality of workmanship with the aim of total
-        Customer Satisfaction.
-      </p>
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-center">Company Overview</h2>
+          <p class="lead text-center">
+            Mega Builders and Bldg. Care Services Corp is a Construction Firm, duly registered with the Securities and
+            Exchange
+            Commission, engaged in general construction services ranging from Renovation of Industrial and Commercial
+            Spaces to
+            Design and Build Projects.
+            We at Mega Builders are committed to provide our clients with High Quality of workmanship with the aim of
+            total
+            Customer Satisfaction.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h2 class="text-center">Mission</h4>
+            <p class="lead text-center">
+              We are Committed to deliver High –
+              Quality Standard services with the desire to achieve Total Customer
+              Satisfaction
+            </p>
+        </div>
+        <div class="col-md-6">
+          <h2 class="text-center">Vision</h2>
+          <p class="lead text-center">
+            To be one of the Major Companies leading the way in Construction, Management, and Building Care Services
+            Industry
+          </p>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -83,7 +105,7 @@
           <h2 class="h1">Services Offered</h2>
           <div class="row">
             <div class="col-sm-3">
-              <a href="">
+              <a href="" data-toggle="modal" data-target="#site-development" onclick="document.querySelector('#modal-title').textContent = 'Site Development'">
                 <div class="box box-services">
                   <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
                   <h4>Site Development</h4>
@@ -91,7 +113,7 @@
               </a>
             </div>
             <div class="col-sm-3">
-              <a href="">
+              <a href="" data-toggle="modal" data-target="#site-development" onclick="document.querySelector('#modal-title').textContent = 'Structural'">
                 <div class="box box-services">
                   <div class="icon"><i class="fas fa-city"></i></div>
                   <h4>Structural</h4>
@@ -99,7 +121,7 @@
               </a>
             </div>
             <div class="col-sm-3">
-              <a href="">
+              <a href="" data-toggle="modal" data-target="#site-development" onclick="document.querySelector('#modal-title').textContent = 'Civil'">
                 <div class="box box-services">
                   <div class="icon"><i class="fas fa-landmark"></i></div>
                   <h4>Civil</h4>
@@ -107,7 +129,7 @@
               </a>
             </div>
             <div class="col-sm-3">
-              <a href="">
+              <a href="" data-toggle="modal" data-target="#site-development" onclick="document.querySelector('#modal-title').textContent = 'Architectural'">
                 <div class="box box-services">
                   <div class="icon"><i class="fas fa-pencil-ruler"></i></div>
                   <h4>Architectural</h4>
@@ -115,10 +137,9 @@
               </a>
             </div>
           </div>
-
           <div class="row">
             <div class="col-sm-3">
-              <a href="">
+              <a href="" data-toggle="modal" data-target="#site-development" onclick="document.querySelector('#modal-title').textContent = 'Electrical'">
                 <div class="box box-services">
                   <div class="icon"><i class="fas fa-bolt"></i></div>
                   <h4>Electrical</h4>
@@ -126,7 +147,8 @@
               </a>
             </div>
             <div class="col-sm-3">
-              <a href="">
+              <a href="" data-toggle="modal" data-target="#site-development" onclick="document.querySelector('#modal-title').textContent
+              = 'Painting'">
                 <div class="box box-services">
                   <div class="icon"><i class="fas fa-paint-roller"></i></div>
                   <h4>Painting</h4>
@@ -134,7 +156,8 @@
               </a>
             </div>
             <div class="col-sm-3">
-              <a href="">
+              <a href="" data-toggle="modal" data-target="#site-development" onclick="document.querySelector('#modal-title').textContent
+              = 'Water-Proofing'">
                 <div class="box box-services">
                   <div class="icon"><i class="fas fa-tint"></i></div>
                   <h4>Water-Proofing</h4>
@@ -142,7 +165,8 @@
               </a>
             </div>
             <div class="col-sm-3">
-              <a href="">
+              <a href="" data-toggle="modal" data-target="#site-development" onclick="document.querySelector('#modal-title').textContent
+              = 'Plumbing'">
                 <div class="box box-services">
                   <div class="icon"><i class="fas fa-vector-square"></i></div>
                   <h4>Plumbing</h4>
@@ -150,17 +174,71 @@
               </a>
             </div>
           </div>
-
         </div>
       </div>
     </div>
   </section>
 
+  <div id="site-development" tabindex="-1" role="dialog" aria-labelledby="Login" aria-hidden="true" class="modal fade">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" data-dismiss="modal" aria-hidden="true" class="close">×</button>
+          <h4 id="Login" class="modal-title">
+            <i class="fas fa-map-marker-alt"></i>
+            <span id="modal-title">Lorem Ipsum</span>
+          </h4>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-12">
+              <p class="text-left text-muted">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum at, inventore debitis quidem ipsa
+                officia
+                dicta, in laborum minus similique, cumque odio expedita. Natus dicta, debitis nihil facere dolorem
+                error?
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="post">
+                <div class="image">
+                  <a href="text.html">
+                    <img src="img/projects/university-of-perpetual-help.png" alt="" class="card-image">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="post">
+                <div class="image">
+                  <a href="text.html">
+                    <img src="img/projects/smdc-showroom.png" alt="" class="card-image">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="post">
+                <div class="image">
+                  <a href="text.html">
+                    <img src="img/projects/mapua-canteen.png" alt="" class="card-image">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <section id="gallery">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1 class="text-center padding-bottom-50">Gallery</h1>
+          <h1 class="text-center padding-bottom-50">Projects</h1>
         </div>
       </div>
     </div>
@@ -254,14 +332,6 @@
               (02) 851-7079
             </p>
           </div>
-          <div class="box-simple">
-            <div class="icon"><i class="pe-7s-mail-open"></i></div>
-            <h4 class="heading margin-bottom">Electronic support</h4>
-            <p class="text-muted">Please feel free to write an email to us at:</p>
-            <ul>
-              <li><strong><a href="mailto:">info@megabuilders.com</a></strong></li>
-            </ul>
-          </div>
         </div>
         <div class="col-lg-7 col-lg-offset-1">
           <div class="icon"><i class="pe-7s-pen"></i></div>
@@ -305,42 +375,24 @@
           </form>
         </div>
       </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="box-simple">
+            <div class="icon"><i class="pe-7s-mail-open"></i></div>
+            <h4 class="heading margin-bottom">Electronic support</h4>
+            <p class="text-muted">Please feel free to write an email to us at:</p>
+            <ul>
+              <li><strong><a href="mailto:">info@megabuilders.com</a></strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
   <footer class="footer">
     <div class="footer__block">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 col-sm-12">
-            <p>
-              Follow us:
-              <br />
-              <a href=""><i class="fab fa-facebook"></i> Facebook</a>
-              <br />
-              <a href=""><i class="fab fa-google-plus"></i> Google</a>
-              <br />
-              <a href=""><i class="fab fa-twitter"></i> Twitter</a>
-            </p>
-          </div>
-          <div class="col-md-4 col-sm-12">
-            <h4 class="heading">Mission</h4>
-            <p>
-              We are Committed to deliver High –
-              Quality Standard services with the desire to achieve Total Customer
-              Satisfaction
-            </p>
-          </div>
-          <div class="col-md-4 col-sm-12">
-            <h4 class="heading">Vision</h4>
-            <p>
-              To be one of the Major Companies leading the way in Construction, Management, and Building Care Services
-              Industry
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="footer__copyright">
+      <div>
         <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -348,6 +400,13 @@
                 &copy;2018 Mega Builders & Building Care Services Corporation
                 <br />
                 <img src="./img/logo.png" style="min-width: 10%; max-width: 25%;" alt="">
+                <br />
+
+                Follow us:
+                <br />
+                <a href=""><i class="fab fa-facebook"></i> Facebook</a>
+                <a href=""><i class="fab fa-google-plus"></i> Google</a>
+                <a href=""><i class="fab fa-twitter"></i> Twitter</a>
               </p>
             </div>
           </div>

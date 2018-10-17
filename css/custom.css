@@ -55,6 +55,23 @@ div[class='box box-services']:hover  {
     padding-top: 32.5px;
 } */
 
+a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer__block {
+    background: #000;
+}
+
+.unset {
+    all: unset;
+}
+
+.unset:hover {
+    all: unset;
+}
+
 .navbar a.navbar-brand {
     color:#ff1616;
 }
