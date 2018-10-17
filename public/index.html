@@ -1,17 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title>megabuilders-site</title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but megabuilders-site doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Mega Builders</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="all,follow">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/pe-icon-7-stroke.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,700">
+  <link rel="stylesheet" href="css/lightbox.min.css">
+  <link rel="stylesheet" href="css/style.red.css" id="theme-stylesheet">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="shortcut icon" href="./img/logo.png">
+</head>
+
+<body>
+
+  <div id="app"></div>
+
+  <div id="site-development" tabindex="-1" role="dialog" aria-labelledby="Login" aria-hidden="true" class="modal fade">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" data-dismiss="modal" aria-hidden="true" class="close">×</button>
+          <h4 id="Login" class="modal-title">
+            <i class="fas fa-map-marker-alt"></i>
+            <span id="modal-title">Lorem Ipsum</span>
+          </h4>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-12">
+              <p class="text-left text-muted">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum at, inventore debitis quidem ipsa
+                officia
+                dicta, in laborum minus similique, cumque odio expedita. Natus dicta, debitis nihil facere dolorem
+                error?
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="post">
+                <div class="image">
+                  <a href="text.html">
+                    <img src="img/projects/university-of-perpetual-help.png" alt="" class="card-image">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="post">
+                <div class="image">
+                  <a href="text.html">
+                    <img src="img/projects/smdc-showroom.png" alt="" class="card-image">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="post">
+                <div class="image">
+                  <a href="text.html">
+                    <img src="img/projects/mapua-canteen.png" alt="" class="card-image">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Javascript files-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.cookie.js"> </script>
+  <script src="js/lightbox.min.js"></script>
+  <script src="js/front.js"></script>
+
+  <script>
+    $('a[href*=#]:not([href=#])').click(function () {
+      if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+        || location.hostname == this.hostname) {
+
+        var target = $(this.hash);
+        target = target.length ? target : $('[id=' + this.hash.slice(1) + ']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  </script>
+</body>
+
 </html>
