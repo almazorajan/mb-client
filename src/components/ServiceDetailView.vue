@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="box box-services">
-      <div :onclick="onclickModalLink">
+      <div :onclick="onclickModalLink" data-aos="fade">
         <div class="icon"><i :class="this.service.icon"></i></div>
         <h4>{{this.service.name}}</h4>
       </div>  

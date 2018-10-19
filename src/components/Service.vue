@@ -6,7 +6,7 @@
 					<h2 class="h1" data-aos="fade">{{title}}</h2>
 					<div class="row">
 						<div class="col-sm-3" v-for="(service, index) in services">
-							<ServiceDetailView :service="service" :index="index" data-aos="fade" />	
+							<ServiceDetailView :service="service" :index="index" />	
 						</div>
 					</div>
       	</div>
