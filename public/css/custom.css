@@ -1,0 +1,129 @@
+/* your styles go here */
+
+div[class='box box-services'] {
+    text-align: center;
+}
+
+.megabuilder-logo {
+    height: 130px; 
+    width: 200px;
+}
+
+.megabuilder-logo-mini {
+    height: 30px; 
+    width: 20px;
+}
+
+div[class='box box-services']:hover  {
+    /* padding: 40px 40px 40px 40px; */
+    color: black;
+    cursor: pointer;
+    transition: 100ms linear 0s;
+}
+
+.padding-right-10px {
+    padding-right: 10px;
+}
+
+/* .main-jumbotron {
+    padding-top: 250px;
+    padding-bottom: 250px;
+} */
+
+.h1 {
+    text-align: center;
+}
+
+.padding-bottom-50 {
+    padding-bottom: 50px;
+}
+
+.heading:after {
+    background: #ff1616;
+    text-align: center;
+}
+
+.icon {
+    border-color: #ff1616;
+    color: #ff1616;
+}
+
+.jumbotron.main-jumbotron {
+    background-image: url('../img/construction.jpg');
+    background-attachment: fixed;
+}
+
+.main-jumbotron:before {
+    opacity: 0.6;
+}
+
+.card-image {
+   width: 100%!important;
+   height: 200px!important;
+   object-fit: cover;
+}
+
+/* .navbar {
+    min-height: 79px;
+}
+
+.navbar ul.nav > li > a {
+    padding-top: 32.5px;
+} */
+
+a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer__block {
+    background: #000;
+}
+
+.unset {
+    all: unset;
+}
+
+.unset:hover {
+    all: unset;
+}
+
+.navbar a.navbar-brand {
+    color:#fff;
+}
+
+.navbar a.navbar-brand:hover {
+    color:#f5bf08;
+}
+
+.btn-ghost {
+    color: #ff1616;
+    border-color: #ff1616;
+}
+
+.navbar-default {
+    background-color: #ff1616;
+    border-bottom: 5px solid #f5bf08;
+    color: #FFF;
+}
+
+/* .navbar ul.nav > li.active > a, .navbar ul.nav > li.open > a {
+    color: #FFF;
+} */
+
+/* .navbar ul.nav > li.active > a, .navbar ul.nav > li.open > a {
+    border-top-color: #ff1616;
+} */
+
+#navigation > ul > li > a {
+    color: white;
+}
+
+#navigation > ul > li > a:hover {
+    color: #f5bf08;
+}
+
+
+/* .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #f5bf08;
+} */
