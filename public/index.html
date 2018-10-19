@@ -25,62 +25,6 @@
 
   <div id="app"></div>
 
-  <div id="site-development" tabindex="-1" role="dialog" aria-labelledby="Login" aria-hidden="true" class="modal fade">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" data-dismiss="modal" aria-hidden="true" class="close">×</button>
-          <h4 id="Login" class="modal-title">
-            <i class="fas fa-map-marker-alt"></i>
-            <span id="modal-title">Lorem Ipsum</span>
-          </h4>
-        </div>
-        <div class="modal-body">
-          <div class="row">
-            <div class="col-md-12">
-              <p class="text-left text-muted">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum at, inventore debitis quidem ipsa
-                officia
-                dicta, in laborum minus similique, cumque odio expedita. Natus dicta, debitis nihil facere dolorem
-                error?
-              </p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-4">
-              <div class="post">
-                <div class="image">
-                  <a href="text.html">
-                    <img src="img/projects/university-of-perpetual-help.png" alt="" class="card-image">
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="post">
-                <div class="image">
-                  <a href="text.html">
-                    <img src="img/projects/smdc-showroom.png" alt="" class="card-image">
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="post">
-                <div class="image">
-                  <a href="text.html">
-                    <img src="img/projects/mapua-canteen.png" alt="" class="card-image">
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
   <!-- Javascript files-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
@@ -89,20 +33,57 @@
   <script src="js/front.js"></script>
 
   <script>
-    $('a[href*=#]:not([href=#])').click(function () {
-      if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
-        || location.hostname == this.hostname) {
+    // $('a[href*=#]:not([href=#])').click(function () {
+    //   if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+    //     || location.hostname == this.hostname) {
 
-        var target = $(this.hash);
-        target = target.length ? target : $('[id=' + this.hash.slice(1) + ']');
-        if (target.length) {
-          $('html,body').animate({
-            scrollTop: target.offset().top
-          }, 1000);
-          return false;
+    //     var target = $(this.hash);
+    //     target = target.length ? target : $('[id=' + this.hash.slice(1) + ']');
+    //     if (target.length) {
+    //       $('html,body').animate({
+    //         scrollTop: target.offset().top
+    //       }, 1000);
+    //       return false;
+    //     }
+    //   }
+    // });
+
+    // Select all links with hashes
+    $('a[href*="#"]')
+      // Remove links that don't actually link to anything
+      .not('[href="#"]')
+      .not('[href="#0"]')
+      .click(function (event) {
+        // On-page links
+        if (
+          location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+          &&
+          location.hostname == this.hostname
+        ) {
+          // Figure out element to scroll to
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          // Does a scroll target exist?
+          if (target.length) {
+            // Only prevent default if animation is actually gonna happen
+            event.preventDefault();
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000, function () {
+              // Callback after animation
+              // Must change focus!
+              var $target = $(target);
+              $target.focus();
+              if ($target.is(":focus")) { // Checking if the target was focused
+                return false;
+              } else {
+                $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
+                $target.focus(); // Set focus again
+              };
+            });
+          }
         }
-      }
-    });
+      });
   </script>
 </body>
 
