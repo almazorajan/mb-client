@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1 class="text-center padding-bottom-50">{{moduleName}}</h1>
+          <h1 class="text-center padding-bottom-50" data-aos="fade">{{moduleName}}</h1>
         </div>
       </div>
     </div>
@@ -11,7 +11,7 @@
       <div class="row">
         
         <div class="col-sm-4" v-for="project in projects">
-          <div class="post">
+          <div class="post" data-aos="fade">
             <div class="image">
               <a href="javascript:void(0);">
                 <img :src="project.thumbnail" alt="" class="card-image">

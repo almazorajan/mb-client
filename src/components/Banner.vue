@@ -1,12 +1,7 @@
 <template>
     <div class="jumbotron main-jumbotron">
     <div class="container">
-      <div class="content">
-        <!-- <div class="row">
-          <div class="col-md-4 text-center">
-            
-          </div>
-        </div> -->
+      <div class="content" data-aos="fade-in">
         <h1 class="text-center">
           <img src="@/assets/img/logo.png" class="megabuilder-logo">
           <br/>

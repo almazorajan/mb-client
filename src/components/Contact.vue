@@ -10,14 +10,14 @@
     <div id="contact" class="container">
       <div class="row">
         <div class="col-lg-4">
-          <div class="box-simple">
+          <div class="box-simple" data-aos="fade-right">
             <div class="icon"><i class="pe-7s-map-2"></i></div>
             <h4 class="heading margin-bottom">Address</h4>
             <p>
               Suite 600 Trinity Building, T.M Kalaw Street, Ermita, Manila <strong>Philippines</strong>
             </p>
           </div>
-          <div class="box-simple">
+          <div class="box-simple" data-aos="fade-right">
             <div class="icon"><i class="pe-7s-phone"></i></div>
             <h4 class="heading margin-bottom">Contact Numbers</h4>
             <p>
@@ -37,7 +37,7 @@
             </p>
           </div>
         </div>
-        <div class="col-lg-7 col-lg-offset-1">
+        <div class="col-lg-7 col-lg-offset-1" data-aos="fade-left">
           <div class="icon"><i class="pe-7s-pen"></i></div>
           <h4 class="heading margin-bottom">Contact form</h4>
           <form>
@@ -81,7 +81,7 @@
       </div>
       <div class="row">
         <div class="col-lg-4">
-          <div class="box-simple">
+          <div class="box-simple" data-aos="fade-right">
             <div class="icon"><i class="pe-7s-mail-open"></i></div>
             <h4 class="heading margin-bottom">Electronic support</h4>
             <p class="text-muted">Please feel free to write an email to us at:</p>
