@@ -4,7 +4,8 @@
       <div class="container">
         <div class="navbar-header">
           <a href="index.html" class="navbar-brand">
-            <img src="@/assets/img/logo.png" class="megabuilder-logo-mini"> Mega Builders
+            <!-- <img src="@/assets/img/logo.png" class="megabuilder-logo-mini"> -->
+            Mega Builders
           </a>
           <div class="navbar-buttons">
             <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle navbar-btn">
