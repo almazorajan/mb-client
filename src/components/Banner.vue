@@ -2,13 +2,14 @@
     <div class="jumbotron main-jumbotron">
     <div class="container">
       <div class="content">
-        <div class="row">
-          <div class="col-md-4">
-            <img src="@/assets/img/logo.png" class="megabuilder-logo">
+        <!-- <div class="row">
+          <div class="col-md-4 text-center">
+            
           </div>
-        </div>
-        <h1>
-          <!-- <img src="@/assets/img/logo.png" style="min-width: 50%; max-width: 80%;"> -->
+        </div> -->
+        <h1 class="text-center">
+          <img src="@/assets/img/logo.png" class="megabuilder-logo">
+          <br/>
           MEGA BUILDERS
         </h1>
         <p class="margin-bottom" style="color:#fbb121; font-weight: bold; font-size: 40px;">
