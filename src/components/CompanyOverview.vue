@@ -17,7 +17,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6" data-aos="fade-right">
+        <div class="col-md-6" data-aos="fade">
           <h2 class="text-center">Mission</h2>
           <p class="lead text-center">
             We are Committed to deliver High –
@@ -26,7 +26,7 @@
           </p>
         </div>
         
-        <div class="col-md-6" data-aos="fade-left">
+        <div class="col-md-6" data-aos="fade">
           <h2 class="text-center">Vision</h2>
           <p class="lead text-center">
             To be one of the Major Companies leading the way in Construction, Management, and Building Care Services
@@ -40,10 +40,10 @@
 
 <script>
 export default {
-  name: "CompanyOverview",
-  mounted() {
-    // new WOW().init();
-    // alert("initialized" + JSON.stringify(WOW));
-  }
+	name: "CompanyOverview",
+	mounted() {
+		// new WOW().init();
+		// alert("initialized" + JSON.stringify(WOW));
+	}
 };
 </script>
