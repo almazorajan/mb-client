@@ -3,7 +3,7 @@
     <div class="container clearfix">
       <div class="row services">
         <div class="col-md-12">
-					<h2 class="h1" data-aos="fade">{{title}}</h2>
+					<h2 class="h1" data-aos="fade" style="padding-bottom: 30px;">{{title}}</h2>
 					<div class="row">
 						<div class="col-sm-3" v-for="(service, index) in services">
 							<ServiceDetailView :service="service" :index="index" />	

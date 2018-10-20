@@ -1,17 +1,25 @@
 /* your styles go here */
 
+html {
+  scroll-behavior: smooth;
+}
+
 div[class='box box-services'] {
     text-align: center;
 }
 
 .megabuilder-logo {
-    height: 130px; 
+    height: 150px; 
     width: 200px;
 }
 
 .megabuilder-logo-mini {
     height: 30px; 
-    width: 20px;
+    width: 30px;
+}
+
+#app > div > footer > div > div > div > div > div > p > a {
+    padding-right: 20px;
 }
 
 div[class='box box-services']:hover  {
@@ -59,6 +67,14 @@ div[class='box box-services']:hover  {
 
 .main-jumbotron:before {
     opacity: 0.6;
+}
+
+.gold {
+    color: #fbb121;
+}
+
+mb-section-header {
+    padding-bottom: 40px;
 }
 
 .card-image {
