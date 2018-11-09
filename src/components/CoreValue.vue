@@ -84,7 +84,8 @@ export default {
   /* background-image: url(https://images.unsplash.com/photo-1489515229412-1f3a8f08dc34?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e71a7bf83a2ee0f744cf11b0554554f4&auto=format&fit=crop&w=1350&q=80); */
   /* background-image: url(https://images.unsplash.com/photo-1527199768775-bdabf8b32f61?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7c3d4d6196ff46a8fabff56843392833&auto=format&fit=crop&w=800&q=60); */
   background-image: url(https://images.unsplash.com/photo-1533378890784-b2a5b0a59d40?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=054902654baaa326e52880319521d63f&auto=format&fit=crop&w=1321&q=80);
-
+  background-repeat: no-repeat;
+  background-position: center;
   /* background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
