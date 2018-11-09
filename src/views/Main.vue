@@ -1,14 +1,14 @@
 <template>
   <div class="home">
     <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
-    <NavBar msg="Welcome to Your Vue.js App"/>
+    <NavBar/>
     <Banner/>
     <CompanyOverview/>
     <CoreValue/>
     <Service/>
     <Project/>
     <Contact/>
-    <!-- <Accreditation/> -->
+    <Accreditation/>
     <Footer/>
   </div>
 </template>

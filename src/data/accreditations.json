@@ -1,0 +1,36 @@
+[
+    {
+        "icon": "fas fa-city",
+        "name": "SEC (Securities and Exchange Commission)",
+        "thumbnail": "./img/gov-icons/sec.png",
+        "thumbnailWidth": "250px",
+        "images": [
+            "./img/gov-acc/sec.jpg"
+        ]
+    },
+    {
+        "icon": "fas fa-landmark",
+        "name": "Business Permit (Lungsod ng Maynila)",
+        "thumbnail": "./img/gov-icons/manila.png",
+        "thumbnailWidth": "150px",
+        "images": [
+            "./img/gov-acc/business-permit.jpg"
+        ]
+    },
+    {
+        "icon": "fas fa-map-marker-alt",
+        "name": "PCAB (Philippine Contractors Accreditation Board)",
+        "thumbnail": "./img/gov-icons/pcab.jpeg",
+        "thumbnailWidth": "220px",
+        "images": []
+    },
+    {
+        "icon": "fas fa-landmark",
+        "name": "BIR (Bureau of Internal Revenue)",
+        "thumbnail": "./img/gov-icons/bir.png",
+        "thumbnailWidth": "150px",
+        "images": [
+            "./img/gov-acc/bir.jpg"
+        ]
+    }
+]
