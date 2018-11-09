@@ -1,0 +1,93 @@
+[
+    {
+        "projectName": "MAPUA",
+        "thumbnail": "./img/projects/mapua/mapua1.jpg",
+        "images": [
+            "./img/projects/mapua/mapua1.jpg",
+            "./img/projects/mapua/mapua2.jpg",
+            "./img/projects/mapua/mapua3.jpg",
+            "./img/projects/mapua/mapua4.jpg"
+        ]
+    },
+    {
+        "projectName": "Mutual Development Center Inc",
+        "thumbnail": "./img/projects/mdci/mdci1.jpg",
+        "images": [
+            "./img/projects/mdci/mdci1.jpg",
+            "./img/projects/mdci/mdci2.jpg",
+            "./img/projects/mdci/mdci3.jpg",
+            "./img/projects/mdci/mdci4.jpg"
+        ]
+    },
+    {
+        "projectName": "SMDC Old Showroom",
+        "thumbnail": "./img/projects/smdc-old-showroom/smdc-old-showroom1.jpg",
+        "images": [
+            "./img/projects/smdc-old-showroom/smdc-old-showroom1.jpg",
+            "./img/projects/smdc-old-showroom/smdc-old-showroom2.jpg",
+            "./img/projects/smdc-old-showroom/smdc-old-showroom3.jpg",
+            "./img/projects/smdc-old-showroom/smdc-old-showroom4.jpg"
+        ]
+    },
+    {
+        "projectName": "SMDC Showroom MOA - PAGCOR",
+        "thumbnail": "./img/projects/smdc-pagcor/smdc-pagcor1.jpg",
+        "images": [
+            "./img/projects/smdc-pagcor/smdc-pagcor1.jpg",
+            "./img/projects/smdc-pagcor/smdc-pagcor2.jpg",
+            "./img/projects/smdc-pagcor/smdc-pagcor3.jpg",
+            "./img/projects/smdc-pagcor/smdc-pagcor4.jpg",
+            "./img/projects/smdc-pagcor/smdc-pagcor5.jpg"
+        ]
+    },
+    {
+        "projectName": "SMDC Showroom MOA - Sail Upgrade",
+        "thumbnail": "./img/projects/smdc-sail-upgrade/sail-upgrade1.jpg",
+        "images": [
+            "./img/projects/smdc-sail-upgrade/sail-upgrade1.jpg",
+            "./img/projects/smdc-sail-upgrade/sail-upgrade2.jpg",
+            "./img/projects/smdc-sail-upgrade/sail-upgrade3.jpg",
+            "./img/projects/smdc-sail-upgrade/sail-upgrade4.jpg",
+            "./img/projects/smdc-sail-upgrade/sail-upgrade5.jpg",
+            "./img/projects/smdc-sail-upgrade/sail-upgrade6.jpg"
+        ]
+    },
+    {
+        "projectName": "SMDC Showroom MOA - Sales Area",
+        "thumbnail": "./img/projects/smdc-sales-area/sales-area1.jpg",
+        "images": [
+            "./img/projects/smdc-sales-area/sales-area1.jpg",
+            "./img/projects/smdc-sales-area/sales-area2.jpg",
+            "./img/projects/smdc-sales-area/sales-area3.jpg",
+            "./img/projects/smdc-sales-area/sales-area4.jpg",
+            "./img/projects/smdc-sales-area/sales-area5.jpg"
+        ]
+    },
+    {
+        "projectName": "SMDC Showroom MOA - Shore",
+        "thumbnail": "./img/projects/smdc-shore/smdc-shore1.jpg",
+        "images": [
+            "./img/projects/smdc-shore/smdc-shore1.jpg",
+            "./img/projects/smdc-shore/smdc-shore2.jpg",
+            "./img/projects/smdc-shore/smdc-shore3.jpg",
+            "./img/projects/smdc-shore/smdc-shore4.jpg",
+            "./img/projects/smdc-shore/smdc-shore5.jpg"
+        ]
+    },
+    {
+        "projectName": "University of Perpetual Help - Las Pinas",
+        "thumbnail": "./img/projects/uph-las-pinas/uph-laspinas1.jpg",
+        "images": [
+            "./img/projects/uph-las-pinas/uph-laspinas1.jpg",
+            "./img/projects/uph-las-pinas/uph-laspinas2.jpg"
+        ]
+    },
+    {
+        "projectName": "University of Perpetual Help - Molino",
+        "thumbnail": "./img/projects/uph-molino/uph-molino1.jpg",
+        "images": [
+            "./img/projects/uph-molino/uph-molino1.jpg",
+            "./img/projects/uph-molino/uph-molino2.jpg"
+        ]
+    }
+]

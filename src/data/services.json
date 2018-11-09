@@ -1,0 +1,92 @@
+[
+    {
+        "icon": "fas fa-map-marker-alt",
+        "name": "Site Development",
+        "desc": "",
+        "images": [
+            "./img/services/site-development/site-dev1.jpg",
+            "./img/services/site-development/site-dev2.jpg",
+            "./img/services/site-development/site-dev3.jpg",
+            "./img/services/site-development/site-dev4.jpg",
+            "./img/services/site-development/site-dev5.jpg",
+            "./img/services/site-development/site-dev6.jpg"
+        ]
+    },
+    {
+        "icon": "fas fa-city",
+        "name": "Structural",
+        "desc": "",
+        "images": [
+            "./img/services/structural/struc1.jpg",
+            "./img/services/structural/struc2.jpg",
+            "./img/services/structural/struc3.jpg",
+            "./img/services/structural/struc4.jpg",
+            "./img/services/structural/struc5.jpg",
+            "./img/services/structural/struc6.jpg"
+        ]
+    },
+    {
+        "icon": "fas fa-landmark",
+        "name": "Civil",
+        "desc": "",
+        "images": []
+    },
+    {
+        "icon": "fas fa-pencil-ruler",
+        "name": "Architectural",
+        "desc": "",
+        "images": [
+            "./img/services/architectural/archi1.jpg",
+            "./img/services/architectural/archi2.jpg",
+            "./img/services/architectural/archi3.jpg",
+            "./img/services/architectural/archi4.jpg",
+            "./img/services/architectural/archi5.jpg",
+            "./img/services/architectural/archi6.jpg"
+        ]
+    },
+    {
+        "icon": "fas fa-bolt",
+        "name": "Electrical",
+        "desc": "",
+        "images": []
+    },
+    {
+        "icon": "fas fa-paint-roller",
+        "name": "Painting",
+        "desc": "",
+        "images": [
+            "./img/services/painting/paint1.jpg",
+            "./img/services/painting/paint2.jpg",
+            "./img/services/painting/paint3.jpg",
+            "./img/services/painting/paint4.jpg",
+            "./img/services/painting/paint5.jpg",
+            "./img/services/painting/paint6.jpg"
+        ]
+    },
+    {
+        "icon": "fas fa-tint",
+        "name": "Water-proofing",
+        "desc": "",
+        "images": [
+            "./img/services/waterproofing/waterpr1.jpg",
+            "./img/services/waterproofing/waterpr2.jpg",
+            "./img/services/waterproofing/waterpr3.jpg",
+            "./img/services/waterproofing/waterpr4.jpg",
+            "./img/services/waterproofing/waterpr5.jpg",
+            "./img/services/waterproofing/waterpr6.jpg"
+        ]
+    },
+    {
+        "icon": "fas fa-vector-square",
+        "name": "Plumbing",
+        "desc": "",
+        "images": [
+            "./img/services/plumbing/plumbng1.jpg",
+            "./img/services/plumbing/plumbng2.jpg",
+            "./img/services/plumbing/plumbng3.jpg",
+            "./img/services/plumbing/plumbng4.jpg",
+            "./img/services/plumbing/plumbng5.jpg",
+            "./img/services/plumbing/plumbng6.jpg"
+        ]
+    }
+]

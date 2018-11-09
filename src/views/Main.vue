@@ -8,12 +8,14 @@
     <Service/>
     <Project/>
     <Contact/>
+    <Accreditation/>
     <Footer/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
+import Accreditation from "@/components/Accreditation.vue";
 import Banner from "@/components/Banner.vue";
 import CompanyOverview from "@/components/CompanyOverview.vue";
 import Contact from "@/components/Contact.vue";
@@ -32,6 +34,7 @@ export default {
     AOS.init();
   },
   components: {
+    Accreditation,
     Banner,
     CompanyOverview,
     Contact,

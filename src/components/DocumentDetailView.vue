@@ -25,19 +25,7 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-sm-12" v-if="!service.images || !service.images.length">
-                <div class="text-center">
-                  <h4>No photos available as of this moment.</h4>
-                </div>
-              </div>
-              <div class="col-sm-4" :key="index" v-if="service.images && service.images.length" v-for="(imageUrl, index) in service.images">
-                <div class="post">
-                  <div class="image">
-                    <img :src="imageUrl" alt="" class="card-image">
-                  </div>
-                </div>
-              </div>
-              <!-- <div class="col-sm-4">
+              <div class="col-sm-4">
                 <div class="post">
                   <div class="image">
                     <a href="text.html">
@@ -45,8 +33,8 @@
                     </a>
                   </div>
                 </div>
-              </div> -->
-              <!-- <div class="col-sm-4">
+              </div>
+              <div class="col-sm-4">
                 <div class="post">
                   <div class="image">
                     <a href="text.html">
@@ -63,7 +51,7 @@
                     </a>
                   </div>
                 </div>
-              </div> -->
+              </div>
             </div>
           </div>
         </div>
@@ -74,7 +62,7 @@
 
 <script>
 export default {
-  name: "ServiceDetailView",
+  name: "DocumentDetailView",
   computed: {
     id() {
       return `${this.index}-${this.service.name.replace(/\s+/g, "").trim()}`;
