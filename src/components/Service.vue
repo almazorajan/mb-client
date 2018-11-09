@@ -5,7 +5,7 @@
         <div class="col-md-12">
 			<h2 class="h1" data-aos="fade" style="padding-bottom: 30px;">{{title}}</h2>
 			<div class="row">
-				<div class="col-sm-3" :key="index" :v-for="(service, index) in services">
+				<div class="col-sm-3"  v-for="(service, index) in services" :key="index">
 					<ServiceDetailView :service="service" :index="index" />	
 				</div>
 			</div>
@@ -28,6 +28,7 @@ export default {
   },
   created() {
     this.services = serviceData;
+    console.log(this.services);
   },
   data: () => {
     return {

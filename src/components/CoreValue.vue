@@ -57,23 +57,12 @@
         </div>
       </div>
     </div>
-  <!-- <section id="core-values">
-    <div class="container">
-        <h2 class="h1" data-aos="fade">{{title}}</h2>
-        
-    </div>
-  </section> -->
 </template>
 <script>
-import ServiceDetailView from "@/components/ServiceDetailView";
-
 const title = "Core Values";
 
 export default {
-  name: "Service",
-  components: {
-    ServiceDetailView
-  },
+  name: "CoreValue",
   data: () => {
     return {
       title
