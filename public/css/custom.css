@@ -62,7 +62,9 @@ div[class='box box-services']:hover  {
 
 .jumbotron.main-jumbotron {
     background-image: url('../img/construction.jpg');
-    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
 }
 
 .main-jumbotron:before {

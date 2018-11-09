@@ -8,7 +8,7 @@
     <Service/>
     <Project/>
     <Contact/>
-    <Accreditation/>
+    <!-- <Accreditation/> -->
     <Footer/>
   </div>
 </template>

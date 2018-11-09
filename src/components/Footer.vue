@@ -12,11 +12,11 @@
                 <img src="@/assets/img/logo.png" class="megabuilder-logo" alt="">
                 <br />
 
-                Follow us:
+                <!-- Follow us:
                 <br />
                 <a href=""><i class="fab fa-facebook"></i> Facebook</a>
                 <a href=""><i class="fab fa-google-plus"></i> Google</a>
-                <a href=""><i class="fab fa-twitter"></i> Twitter</a>
+                <a href=""><i class="fab fa-twitter"></i> Twitter</a> -->
               </p>
             </div>
           </div>
