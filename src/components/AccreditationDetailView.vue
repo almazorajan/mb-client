@@ -39,7 +39,7 @@
               <div class="col-sm-12" v-if="accreditation && accreditation.images && accreditation.images.length" v-for="(image, index) in accreditation.images" :key="index">
                 <div class="post">
                   <div class="image text-center">
-                    <img :src="image" alt="">
+                    <img :src="image" width="100%" alt="">
                   </div>
                 </div>
               </div>
