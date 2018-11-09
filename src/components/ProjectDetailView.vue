@@ -2,17 +2,12 @@
   <div>
     <div class="box box-services">
       <div :onclick="onclickModalLink" data-aos="fade">
-        <!-- <div class="icon"><i :class="this.project.icon"></i></div> -->
-        <!-- <div class="image">
-          <img :src="project.thumbnail" alt="">
-        </div> -->
-
         <div class="post">
           <div class="image">
             <img :src="project.thumbnail" class="card-image" alt="">
           </div>
+          <h4>{{this.project.projectName}}</h4>
         </div>
-        <h4>{{this.project.projectName}}</h4>
       </div>  
     </div>
     <div :id="this.id" tabindex="-1" role="dialog" aria-labelledby="Login" aria-hidden="true" class="modal fade">
