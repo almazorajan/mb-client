@@ -19,8 +19,14 @@
           <ul class="nav navbar-nav">
             <li><a href="#company-overview">About Us</a></li>
             <li><a href="#project">Projects</a></li>
+            <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Aggregates <b class="caret"></b></a>
+              <ul class="dropdown-menu drop-down-style">
+                <li><a href="#aggregate-products" class="text-white">Products</a></li>
+                <li><a href="#aggregate-quary-sites" class="text-white">Quary Sites</a></li>
+              </ul>
+            </li>
             <li><a href="#contact-us">Contact Us</a></li>
-            </ul>
+          </ul>
         </div>
       </div>
     </div>
@@ -51,5 +57,13 @@ li {
 }
 a {
   color: #42b983;
+}
+
+.drop-down-style {
+  background-color: red;
+}
+
+.text-white {
+  color: white;
 }
 </style>

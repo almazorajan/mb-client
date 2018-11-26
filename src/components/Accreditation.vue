@@ -1,5 +1,5 @@
 <template> 
-  <section class="accreditation-section">
+  <section class="accreditation-section background-gray-lightest">
     <div class="container clearfix">
       	<div class="row services">
 			<div class="col-md-12">

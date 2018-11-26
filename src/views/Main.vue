@@ -7,6 +7,7 @@
     <CoreValue/>
     <Service/>
     <Project/>
+    <Aggregates/>
     <Contact/>
     <Accreditation/>
     <Footer/>
@@ -16,6 +17,7 @@
 <script>
 // @ is an alias to /src
 import Accreditation from "@/components/Accreditation.vue";
+import Aggregates from "@/components/Aggregates.vue";
 import Banner from "@/components/Banner.vue";
 import CompanyOverview from "@/components/CompanyOverview.vue";
 import Contact from "@/components/Contact.vue";
@@ -35,6 +37,7 @@ export default {
   },
   components: {
     Accreditation,
+    Aggregates,
     Banner,
     CompanyOverview,
     Contact,

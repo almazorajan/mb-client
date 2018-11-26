@@ -1,0 +1,34 @@
+[
+    {
+        "title": "Maragondon, Cavite",
+        "location": "Brgy. Pinagsamahan",
+        "projectName": "Madlang Bayan Quarrying Project",
+        "lotArea": "4.7 Hectares (47,124.00 sqm)",
+        "aggregates": "Armour Rocks and Boulders",
+        "capability": "1.6 million metric tonnes of aggregates"
+    },
+    {
+        "title": "Lian, Batangas",
+        "location": "Sitio Aguha, Brgy. Putingkahoy",
+        "projectName": "Pamintuan and Raymundo Quarrying Project",
+        "lotArea": "4.1 Hectares (41,284.00 sqm)",
+        "aggregates": "Armour Rocks and Boulders",
+        "capability": "1.6 million metric tonnes of aggregates"
+    },
+    {
+        "title": "Nasugbu, Batangas",
+        "location": "Sitio Matahong, Brgy. Butukan",
+        "projectName": "Quarrying Project(Limeta)",
+        "lotArea": "41.7 Hectares (417,843.00 sqm)",
+        "aggregates": "Armour Rocks and Boulders",
+        "capability": "16.1 million metric tonnes of aggregates"
+    },
+    {
+        "title": "Rodriguez, Rizal",
+        "location": "Sitio Lukutan Munti, Brgy. San Isidro",
+        "projectName": "Green Leap Sanitary Landfill Project",
+        "lotArea": "49.6 Hectares (496,146.44 sqm)",
+        "aggregates": "Armour Rocks and Boulders",
+        "capability": "19.8 million metric tonnes of aggregates"
+    }
+]
