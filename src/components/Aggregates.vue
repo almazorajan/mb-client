@@ -1,52 +1,81 @@
-
-
-<template> 
-<div class="jumbotron main-jumbotron custom-jumbotron" id="aggregate">
-      <div class="container">
-        <div class="content" data-aos="fade-in">
-          <div class="row">
-               <h2 class="text-center" style="padding-bottom: 30px; color:white;">{{title}}</h2>    
+<template>
+  <div class="jumbotron main-jumbotron custom-jumbotron" id="aggregate">
+    <div class="container">
+      <div class="content" data-aos="fade-in">
+        <div class="row">
+          <h2 class="text-center" style="padding-bottom: 30px; color:white;">
+            {{ title }}
+          </h2>
+        </div>
+        <div class="row" id="aggregate-products">
+          <div class="col-md-12 text-center">
+            <div data-aos="fade">
+              <h2 class="gold">Products</h2>
+              <p class="lead text-left">
+                <span
+                  class="col-sm-6"
+                  :key="index"
+                  v-for="(section, index) in productSections"
+                >
+                  <ul
+                    :key="innerIndex"
+                    v-for="(product, innerIndex) in section.products"
+                  >
+                    <li>{{ product.productName }}</li>
+                  </ul>
+                </span>
+              </p>
+            </div>
           </div>
-          <div class="row" id="aggregate-products">
-            <div class="col-md-12 text-center">
-                <div data-aos="fade">
-                    <h2 class="gold">Products</h2>
-                    <p class="lead text-left col-sm-6" :key="index" v-for="(section, index) in productSections">
-                        <ul :key="innerIndex" v-for="(product, innerIndex) in section.products">
-                            <li>{{product.productName}}</li>  
-                        </ul>
-                    </p>
-                </div>
-            </div>
-        </div> 
+        </div>
         <div class="row" id="aggregate-quary-sites">
-            <div class="col-md-12 text-center">
-                <div data-aos="fade">
-                    <h2 class="gold">Quary Sites</h2>
-                    <p class="lead text-left col-sm-6" :key="index" v-for="(quarySite, index) in quarySites">
-                        <ul style="list-style-type: none;">
-                            <li>
-                                <h3>{{quarySite.title}}</h3>
-                                <p>
-                                    <span><strong>Location:</strong> {{quarySite.location}}</span>
-                                    <br/>
-                                    <span><strong>Project Name:</strong> {{quarySite.projectName}}</span>
-                                    <br/>
-                                    <span><strong>Lot Area:</strong> {{quarySite.lotArea}}</span>
-                                    <br/>
-                                    <span><strong>Aggregates:</strong> {{quarySite.aggregates}}</span>
-                                    <br/>
-                                    <span><strong>Capability:</strong> {{quarySite.capability}}</span>
-                                </p>
-                            </li>
-                        </ul>
-                    </p>
-                </div>
+          <div class="col-md-12 text-center">
+            <div data-aos="fade">
+              <h2 class="gold">Quary Sites</h2>
+              <p class="lead text-left">
+                <span
+                  class="col-sm-6"
+                  :key="index"
+                  v-for="(quarySite, index) in quarySites"
+                  style="padding: 10px;"
+                >
+                  <ul style="list-style-type: none;">
+                    <li>
+                      <h3>{{ quarySite.title }}</h3>
+                      <span
+                        ><strong>Location:</strong>
+                        {{ quarySite.location }}</span
+                      >
+                      <br />
+                      <span
+                        ><strong>Project Name:</strong>
+                        {{ quarySite.projectName }}</span
+                      >
+                      <br />
+                      <span
+                        ><strong>Lot Area:</strong>
+                        {{ quarySite.lotArea }}</span
+                      >
+                      <br />
+                      <span
+                        ><strong>Aggregates:</strong>
+                        {{ quarySite.aggregates }}</span
+                      >
+                      <br />
+                      <span
+                        ><strong>Capability:</strong>
+                        {{ quarySite.capability }}</span
+                      >
+                    </li>
+                  </ul>
+                </span>
+              </p>
             </div>
-        </div>     
+          </div>
         </div>
       </div>
     </div>
+  </div>
 </template>
 <script>
 import quarySites from "@/data/quarySites.json";
