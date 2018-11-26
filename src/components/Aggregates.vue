@@ -28,43 +28,43 @@
             </div>
           </div>
         </div>
-        <div class="row" id="aggregate-quary-sites">
+        <div class="row" id="aggregate-quarry-sites">
           <div class="col-md-12 text-center">
             <div data-aos="fade">
-              <h2 class="gold">Quary Sites</h2>
+              <h2 class="gold">Quarry Sites</h2>
               <p class="lead text-left">
                 <span
                   class="col-sm-6"
                   :key="index"
-                  v-for="(quarySite, index) in quarySites"
+                  v-for="(quarrySite, index) in quarrySites"
                   style="padding: 10px;"
                 >
                   <ul style="list-style-type: none;">
                     <li>
-                      <h3>{{ quarySite.title }}</h3>
+                      <h3>{{ quarrySite.title }}</h3>
                       <span
                         ><strong>Location:</strong>
-                        {{ quarySite.location }}</span
+                        {{ quarrySite.location }}</span
                       >
                       <br />
                       <span
                         ><strong>Project Name:</strong>
-                        {{ quarySite.projectName }}</span
+                        {{ quarrySite.projectName }}</span
                       >
                       <br />
                       <span
                         ><strong>Lot Area:</strong>
-                        {{ quarySite.lotArea }}</span
+                        {{ quarrySite.lotArea }}</span
                       >
                       <br />
                       <span
                         ><strong>Aggregates:</strong>
-                        {{ quarySite.aggregates }}</span
+                        {{ quarrySite.aggregates }}</span
                       >
                       <br />
                       <span
                         ><strong>Capability:</strong>
-                        {{ quarySite.capability }}</span
+                        {{ quarrySite.capability }}</span
                       >
                     </li>
                   </ul>
@@ -78,7 +78,7 @@
   </div>
 </template>
 <script>
-import quarySites from "@/data/quarySites.json";
+import quarrySites from "@/data/quarrySites.json";
 import productSection1 from "@/data/productSection1.json";
 import productSection2 from "@/data/productSection2.json";
 
@@ -89,7 +89,7 @@ export default {
   name: "Aggregates",
   data: () => {
     return {
-      quarySites,
+      quarrySites,
       productSections,
       title
     };

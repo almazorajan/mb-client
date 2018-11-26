@@ -5,12 +5,20 @@
         <div class="navbar-header">
           <a href="index.html" class="navbar-brand">
             <p>
-              <img src="@/assets/img/logo.png" class="megabuilder-logo-mini hidden-sm hidden-xs">
+              <img
+                src="@/assets/img/logo.png"
+                class="megabuilder-logo-mini hidden-sm hidden-xs"
+              />
               Mega Builders
             </p>
           </a>
           <div class="navbar-buttons">
-            <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle navbar-btn">
+            <button
+              type="button"
+              data-toggle="collapse"
+              data-target=".navbar-collapse"
+              class="navbar-toggle navbar-btn"
+            >
               Menu<i class="fa fa-align-justify"></i>
             </button>
           </div>
@@ -19,10 +27,19 @@
           <ul class="nav navbar-nav">
             <li><a href="#company-overview">About Us</a></li>
             <li><a href="#project">Projects</a></li>
-            <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Aggregates <b class="caret"></b></a>
+            <li class="dropdown">
+              <a href="#" data-toggle="dropdown" class="dropdown-toggle"
+                >Aggregates <b class="caret"></b
+              ></a>
               <ul class="dropdown-menu drop-down-style">
-                <li><a href="#aggregate-products" class="text-white">Products</a></li>
-                <li><a href="#aggregate-quary-sites" class="text-white">Quary Sites</a></li>
+                <li>
+                  <a href="#aggregate-products" class="text-white">Products</a>
+                </li>
+                <li>
+                  <a href="#aggregate-quarry-sites" class="text-white"
+                    >Quarry Sites</a
+                  >
+                </li>
               </ul>
             </li>
             <li><a href="#contact-us">Contact Us</a></li>
